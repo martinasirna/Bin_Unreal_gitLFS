@@ -10,6 +10,6 @@ public class KrakenEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
-		ExtraModuleNames.Add("Kraken");
+		ExtraModuleNames.AddRange(new string[] {"Kraken","ModuleEditor"});
 	}
 }
